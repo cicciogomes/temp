@@ -1,0 +1,22 @@
+.container {
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.boxes {
+    height: 500px;
+    background-color: #0099ff;
+    border: 4px solid grey;
+}
+
+.box {
+    width: 400px;
+    height: 250px;
+    border: 2px solid darkblue;
+    background-color: blue;
+    color: white;
+    font: 16px "Zilla", "Open Sans", "Helvetica", "Arial", sans-serif;
+}
